@@ -1,17 +1,20 @@
 body {
   padding: 10px;
-  background: #00000095;
+  background: hsl(189, 98%, 19%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #container {
   display: inline-grid;
   grid-template-columns: repeat(4, 70px);
-  background: #000000;
+  background: #d1d1d1;
   gap: 11px;
   padding: 13px;
   border-radius: 5px;
   transform: translate(0.5);
-  border: solid 1px white;
 }
 
 #resultado {
@@ -23,8 +26,10 @@ body {
   align-items: center;
   overflow: hidden;
   padding: 5px;
-  color: white;
-  border: solid 0.8px white;
+  color: rgb(255, 255, 255);
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  background-color: #404040;
 }
 
 #limpar {
@@ -42,10 +47,9 @@ body {
   padding: 3px;
   width: 98%;
   font-size: 1.01em;
-  background: #40404089;
+  background: #353535;
   color: white;
-  border-bottom: solid 0.5px white;
-  border-left: solid 0.5px white;
+  border-bottom: solid 1px white;
   margin: 0px 0px 5px 0px;
 }
 #juros .input::placeholder {
@@ -66,8 +70,7 @@ body {
   font-size: 40px;
   background: #404040;
   transition: 0.03s;
-  box-shadow: 4px 4px 3px #54545476;
-  border: solid 1px white;
+  box-shadow: 4px 4px 2px #54545476;
 }
 
 #limpar:active {
