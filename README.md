@@ -16,7 +16,7 @@
  * JUSROS SIMPLES
  * JUROS COMPOSTOS
 
----
+
 
 >Ainda há algumas funcionalidades náo implementadas mas futuramente recebera upgrades, entretanto as principais operações matemáticas estão funcionando corretamente 
 
