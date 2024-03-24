@@ -1,4 +1,6 @@
-var resultado = document.getElementById("resultado");
+const resultado = document.getElementById("resultado");
+const j1 = document.getElementById("juros");
+let verify = false;
 
 var parentesE = false;
 function btn(n) {
@@ -32,8 +34,6 @@ function limparjuros() {
   document.getElementById("tempo").value = "";
 }
 
-const j1 = document.getElementById("juros");
-var verify = false;
 
 function juros() {
   var jU = document.getElementById("ks");
@@ -61,7 +61,7 @@ function calcular() {
   } else if (verify == -1) {
     resultado.textContent = c1 * (1 + t1 / 100) ** tem1 - c1;
   }
-
+  
   var r0 = resultado.textContent;
   parseFloat(r0);
   parseFloat(r1);
